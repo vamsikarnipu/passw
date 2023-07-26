@@ -1,0 +1,90 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
+}
+body
+{
+    background: #002339;
+    background-image: url(./markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.container
+{
+
+    margin: 12%;
+    width: 90%;
+    max-width:700px ;
+  
+}
+.display
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px;
+    border-radius: 5px;
+    
+}
+.container h1
+{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span
+{
+    color: #019f55;
+    border-bottom: 4px solid #019f19;
+    background: linear-gradient(45deg, #dabc0f, #df1212);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.display img
+{
+    width: 45px;
+    cursor: pointer;
+}
+.display input
+{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    
+}
+.container button img
+{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button
+{
+    border: 0;
+    outline: 0;
+    background-color: #dbe309;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 16px 26px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+/* .display input::selection
+{
+    color: khaki;
+} */
+
+
